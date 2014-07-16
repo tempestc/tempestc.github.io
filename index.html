@@ -1,0 +1,369 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0079)molecules.html?wcmmode=disabled -->
+<html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="description" content="Molecules are combinations of atoms that combined together take on properties of their own. Examples of molecules are  the search input or the breadcrumb.">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <title>Styleguide</title>
+	
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://psddev.com/styleguide/favicon.ico">
+		<link rel="shortcut icon" href="http://psddev.com/styleguide/favicon.ico">
+	
+	
+    
+
+  
+  <link rel="stylesheet" type="text/css" href="fonts.css">
+ <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800' rel='stylesheet' type='text/css'>
+ <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+  <link rel="stylesheet" type="text/css" href="site.min.css">
+  <link rel="stylesheet" type="text/css" href="docs.min.css">
+  <script src="scripts.min.js"></script>
+
+
+  
+
+    
+
+    
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/show-more" src="http://psddev.com/styleguide/.molecules_files/show-more.js"></script></head>
+<body class="oneColumnPage">
+    <a class="sr-only" href="molecules.html#content">Skip to main content</a>
+    
+    <header class="navbar navbar-static-top" id="top" role="banner">
+    <div class="container">
+        <nav role="navigation">
+           <!-- <ul class="list-unstyled list-inline">
+                <li>
+                    <a href="index.html" class="navbar-brand">Home</a>
+                </li>
+                
+                    <li><a href="index.html">Getting Started</a></li>
+                    
+                
+                    <li><a href="branding.html">Branding</a></li>
+                    
+                
+                    <li><a href="atoms.html">Atoms</a></li>
+                    
+                
+                    <li class="active"><a href="molecules.html">Molecules</a></li>
+                    
+                
+                    <li><a href="organisms.html">Organisms</a></li>
+                    
+                
+                     
+                    
+                
+                     
+                    
+                
+                     
+                    
+                
+                     
+                    
+                
+            </ul>-->
+        </nav>
+    </div>
+</header>
+
+    <div class="area" data-sni-area="content">
+      <div class="bs-docs-header" id="content">
+	<div class="container">
+		<h1>Atoms</h1>
+		<p>These are the smallest design systems that are the building blocks for all larger design systems. Atoms are our HTML tags, such as a heading, list, form input or a button.</p>
+	</div>
+</div>
+      <div class="container-site bs-docs-container">
+          <div class="row">
+              <div class="col-md-18" role="main">
+                  <div class="parsys main"><div class="parbase feature section"><div class="bs-docs-section">
+	<h1 id="Introduction" class="page-header">Introduction</h1>
+	<p>This page will have examples of molecules. Since molecules are sometimes part of bigger components, in some cases, we'll have just static HTML on this page to represent a molecule. In other cases, a molecule is actually an entire component (breadcrumb, search, etc) and in that case, it's a real CQ component using JSP for rendering (TODO: provide example border around CQ components)
+</p></div></div>
+<div class="parbase feature section"><div class="bs-docs-section">
+	<h1 id="Breadcrumb" class="page-header">Breadcrumb</h1>
+	<p>The breadcrumb is a molecule of link and icon atoms used at the top of most pages.</p>
+</div></div>
+<!--<div class="parbase section breadcrumb">
+
+
+
+
+
+
+
+
+	
+	
+		
+			<ul class="site-breadcrumb">
+	
+		<li class=""><a href="index.html">Home</a>
+			
+		    	<i class="icon icon-long-arrow-right"></i>
+		  	
+		</li>
+	
+		<li class="active"><a href="molecules.html">Molecules</a>
+			
+		</li>
+	
+</ul>
+		
+	
+
+</div>-->
+<div class="parbase feature section"><div class="bs-docs-section">
+<script src="https://univision.hackpad.com/XommZYIOsWp.js?format=html-notitle"></script><noscript><div>View <a href="https://univision.hackpad.com/XommZYIOsWp">CMS Widget Guide</a> on Hackpad.</div></noscript>
+	<!--<h1 id="Search Input" class="page-header">Search Input</h1>
+	<p>Search is a molecule that is a combination of form inputs (text/button) that has it's own styling and behavior.</p>
+<p>All search fields have a similar style which is a scaled version of search-small (used in the site header). Search-medium is used for secondary searches (such as photo search) while search-large is used for very special cases, such as the photo library main page. Other form fields have simple styling to mirror the minimal style used elsewhere on the site.</p>
+</div></div>
+<div class="parbase searchInput section">
+
+
+<form method="get" class="search-input search-input-medium">
+	<input type="text" id="" name="q" class="form-control" placeholder="Search Placeholder Text" autocomplete="off" value="">
+	<button class="btn btn-primary"><i class="icon icon-search"></i></button>
+	
+	<div id="search-widget-container">
+		<div id="search-widget" class="inactive"></div>
+	</div>
+</form>
+</div>
+<div class="parbase feature section"><div class="bs-docs-section">
+	<h1 id="Block Photo" class="page-header">Block Photo</h1>
+	<p>A media block is comprised of an image or video asset along with an optional title, description, and detail text. This media block is used throughout the site either as a standalone element (single photo asset, or combined to form organisms on the homepage, search results grid, and single photo asset collections. </p>
+<p>By default an media block has the title, description, and detail text underneath the image. It can also receive modifications to apply styles such as text overlays, alignment, and image fading. It also expands to the size of it's container. When combined into an organism, the organism can choose to align the image blocks however it sees fit.</p>
+
+<div class="bs-example">
+
+<div class="block" style="width:202px; margin-bottom:1.5rem;">
+  <div class="media">
+    <a href="molecules.html#"><img src="http://placehold.it/202x150"></a>
+  </div>
+  <div class="text">
+    <a href="molecules.html#"><h4>Primary Text</h4></a>
+    <p>Secondary Text</p>
+  </div>
+</div>
+
+<div class="block block-media-fade block-text-overlay" style="width:202px; margin-bottom:1.5rem;">
+  <div class="media">
+    <a href="molecules.html#"><img src="http://placehold.it/202x150"></a>
+  </div>
+  <div class="text">
+    <a href="molecules.html#"><h4>Primary Text</h4></a>
+  </div>
+</div>
+
+<div class="block block-text-right">
+  <div class="media">
+    <a href="molecules.html#"><img src="http://placehold.it/202x150"></a>
+  </div>
+  <div class="text">
+    <a href="molecules.html#"><h4>Primary Text</h4></a>
+    <p>Secondary Text</p>
+  </div>
+</div>
+
+</div>
+</div></div>
+<div class="parbase feature section"><div class="bs-docs-section">
+	<h1 id="Tag Group" class="page-header">Tag Group</h1>
+	<p>A tag group is a molecule comprised of a header atom and a group of tag atoms. It's used on every page of the website. </p>
+
+<div class="bs-example">
+
+<div class="tag-list">
+    <h5>Tag Group Title</h5>
+    <ol class="list-inline" style="font-family:'Open Sans',Arial,sans-serif;">
+      <li><a href="molecules.html#" class="tag tag-default">tag 1</a></li>
+      <li><a href="molecules.html#" class="tag tag-default">tag 2</a></li>
+      <li><a href="molecules.html#" class="tag tag-default">tag 3</a></li>
+      <li><a href="molecules.html#" class="tag tag-default">tag 4</a></li>
+      <li><a href="molecules.html#" class="tag tag-default">tag 5</a></li>
+    </ol>
+</div>
+
+</div>
+</div></div>
+<div class="parbase feature section"><div class="bs-docs-section">
+	<h1 id="Author Group" class="page-header">Author Group</h1>
+	<p>An author group is a molecule comprised of an avatar atom along with author and co-author atoms.</p>
+
+<div class="bs-example">
+
+<div class="author-group">
+  <div class="author-avatar"><img class="avatar avatar-md" src="http://s2.uvnimg.com/bellezaymoda/nbl-u/consejos-de-belleza/photo/2014-05-15/luce-igual-de-bella-que_145x80.jpg"></div>
+  <div class="author-main">
+    <p class="from">From</p>
+    <p class="name"><strong>Josephine</strong></p>
+  </div>
+  <div class="author-sub">
+    <p class="from">With</p>
+    <p class="name">Vanessa,</p>
+    <p class="name">Carolinae</p>
+  </div>
+</div>
+
+</div>
+</div></div>
+<div class="parbase feature section"><div class="bs-docs-section">
+	<h1 id="Search Breadbox" class="page-header">Search Breadbox</h1>
+	<p>The breadbox is a molecule made up of buttons among some other atoms and is used on the photo library page.</p>
+
+<div class="bs-example">
+<div class="breadbox">
+                <h6>Current Search</h6>
+                <button type="button" class="btn btn-primary btn-xs">Kitchen <i class="icon icon-times"></i></button>
+                <button type="button" class="btn btn-primary btn-xs">Country <i class="icon icon-times"></i></button>
+                <a class="clear small" href="molecules.html#">Clear All</a>
+              </div>
+</div>
+</div></div>
+<div class="parbase feature section"><div class="bs-docs-section">
+	<h1 id="Filter" class="page-header">Filter</h1>
+	<p>A Search Facet is the name of the CQ component, but Filter is the name of the molecule. A filter molecule is comprised of a list of items with some options. It can have a list that is height constrained to a number of items or a color swatch.</p>
+<div class="bs-example">
+<div class="filter">
+    <h6>Rooms</h6>
+    <ul class="list-small link-inverse" style="font-family:'Open Sans',Arial,sans-serif;">
+        <li class="active"><a href="molecules.html#">All Rooms</a></li>
+        <li><a href="molecules.html#">Kitchen</a></li>
+        <li><a href="molecules.html#">Bathroom</a></li>
+        <li><a href="molecules.html#">Living Space</a></li>
+        <li><a href="molecules.html#">Bedroom</a></li>
+        <li><a href="molecules.html#">Outdoor</a></li>
+        <li><a href="molecules.html#">Storage &amp; Utility</a></li>
+        <li><a href="molecules.html#">Other</a></li>
+    </ul>
+    </div>
+
+    <div class="filter show-more show-6" data-carrot="true" data-sni-module="show-more">
+    <h6>Styles</h6>
+    <ul class="list-small link-inverse" style="font-family:'Open Sans',Arial,sans-serif;">
+        <li class="active"><a href="molecules.html#">All Styles</a></li>
+        <li><a href="molecules.html#">Arts &amp; Crafts;</a></li>
+        <li><a href="molecules.html#">Asian</a></li>
+        <li><a href="molecules.html#">Contemporary</a></li>
+        <li><a href="molecules.html#">Cottage</a></li>
+        <li><a href="molecules.html#">Country</a></li>
+        <li><a href="molecules.html#">Eclectic</a></li>
+        <li><a href="molecules.html#">English Country</a></li>
+        <li><a href="molecules.html#">Asian</a></li>
+        <li><a href="molecules.html#">Contemporary</a></li>
+        <li><a href="molecules.html#">Cottage</a></li>
+        <li><a href="molecules.html#">Country</a></li>
+        <li><a href="molecules.html#">Eclectic</a></li>
+        <li><a href="molecules.html#">English Country</a></li>
+    <span class="show-link show-less-link ">less<span class="icon icon-angle-up"></span></span></ul>
+    <span class="show-link show-more-link ">more<span class="icon icon-angle-down"></span></span></div>
+
+    <div class="filter">
+    <!--<h6>Colors</h6>
+    <ul class="list-inline color-patches">
+        <li><a class="patch-red" href="molecules.html#" title="Red"><span>Red</span></a></li>
+        <li><a class="patch-orange" href="molecules.html#" title="Orange"><span>Orange</span></a></li>
+        <li><a class="patch-yellow" href="molecules.html#" title="Yellow"><span>Yellow</span></a></li>
+        <li><a class="patch-green" href="molecules.html#" title="Green"><span>Green</span></a></li>
+        <li><a class="patch-blue" href="molecules.html#" title="Blue"><span>Blue</span></a></li>
+        <li><a class="patch-purple" href="molecules.html#" title="Purple"><span>Purple</span></a></li>
+        <li><a class="patch-pink" href="molecules.html#" title="Pink"><span>Pink</span></a></li>
+        <li><a class="patch-brown" href="molecules.html#" title="Brown"><span>Brown</span></a></li>
+        <li><a class="patch-neutral" href="molecules.html#" title="Neutral"><span>Neutral</span></a></li>
+        <li><a class="patch-gray" href="molecules.html#" title="Gray"><span>Gray</span></a></li>
+        <li><a class="patch-white" href="molecules.html#" title="White"><span>White</span></a></li>
+        <li><a class="patch-blackwhite" href="molecules.html#" title="White"><span>Black/White</span></a></li>
+        <li><a class="patch-goldwhite" href="molecules.html#" title="White"><span>Gold/White</span></a></li>
+        <li><a class="patch-multi" href="molecules.html#" title="White"><span>Multi</span></a></li>
+    </ul>-->
+
+ <!--   </div>
+</div>-->
+</div></div>
+
+</div>
+
+              </div>
+              <div class="col-md-5">
+                  <div data-sni-module="affix" data-spy="affix" class="bs-docs-sidebar hidden-print  affix-top " role="complementary">
+                      <!--<ul class="nav bs-docs-sidenav">
+                          
+                              
+                              <li><a href="molecules.html#Introduction">Introduction</a></li>
+                          
+                              
+                              <li><a href="molecules.html#Breadcrumb">Breadcrumb</a></li>
+                          
+                              
+                              
+                          
+                              
+                              <li><a href="molecules.html#Search%20Input">Search Input</a></li>
+                          
+                              
+                              
+                          
+                              
+                              <li><a href="molecules.html#Block%20Photo">Block Photo</a></li>
+                          
+                              
+                              <li><a href="molecules.html#Tag%20Group">Tag Group</a></li>
+                          
+                              
+                              <li><a href="molecules.html#Author%20Group">Author Group</a></li>
+                          
+                              
+                              <li><a href="molecules.html#Search%20Breadbox">Search Breadbox</a></li>
+                          
+                              
+                              <li><a href="molecules.html#Filter">Filter</a></li>
+                          
+                      </ul>-->
+                      <a class="back-to-top" href="molecules.html#top">Back to top</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="footer parbase"><footer class="bs-docs-footer" role="contentinfo">
+	<div class="container">
+		<ul class="bs-docs-footer-links muted">
+			<li>Currently v0.1</li>
+		</ul>
+	</div>
+</footer></div>
+
+    
+
+
+
+
+
+
+
+<!--
+More detailed timing info is available by uncommenting some code in the timing.jsp component
+Timing chart URL:
+http://chart.apis.google.com/chart?chtt=molecules.html+%2825ms%29&cht=bhs&chxt=x&chco=c6d9fd,4d89f9&chbh=a&chds=0,25,0,25&chxr=0,0,25&chd=t:5,6,6,7,11,12,14,14,15,17,17,18,19,19,20,20,25|1,0,0,4,1,12,0,1,1,0,1,0,0,0,0,4,0&chly=head.jsp|headlibs.jsp|init.jsp|topnav.jsp|header.jsp|parsys.jsp|feature.jsp|feature.jsp|breadcrumb.jsp|feature.jsp|searchInput.jsp|feature.jsp|feature.jsp|feature.jsp|feature.jsp|feature.jsp|footer.jsp&chs=600x500
+-->
+
+
+    <div class="servicecomponents cloudservices">
+</div>
+
+
+
+
+<div id="hitCountIframeContainer" style="display: none;"></div></body></html>
