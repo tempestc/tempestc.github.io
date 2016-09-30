@@ -21,11 +21,11 @@ body {
     display: block;
     width: 100%;
     text-align: center;
-    background: url('../img/61H.jpg') no-repeat center center scroll;
-    -webkit-background-size: cover;
+	-webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background: url('../img/61H.jpg') no-repeat center center scroll;
 }
 
 .headline {
