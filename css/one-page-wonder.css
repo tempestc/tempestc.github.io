@@ -13,7 +13,7 @@ body {
 	text-transform: uppercase;
 }
 
-.nav.navbar-nav li a{
+.nav.navbar-nav li a, h3, li{
 	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
